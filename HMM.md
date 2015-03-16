@@ -1,4 +1,4 @@
-Using HMMs for Protein Analysis
+HMM for Protein Analysis
 ==
 
 Part I
@@ -7,11 +7,15 @@ Part I
 
 1. How many transmembrane segments can you predict?
 
-2. The structure of this protein is known [PDB 1H6I](http://www.rcsb.org/pdb/explore/explore.do?structureId=1h6i). How do the prediction compare with the experimentally determined structure?
+2. Based on the prediction of [TMHMM](http://www.cbs.dtu.dk/services/TMHMM/), is [AQP1_HUMAN](http://www.uniprot.org/uniprot/P29972) transmembrane protein?
+
+3. The structure of this protein is known [PDB 1H6I](http://www.rcsb.org/pdb/explore/explore.do?structureId=1h6i). How does the [TMHMM](http://www.cbs.dtu.dk/services/TMHMM/) prediction compare to the experimentally determined structure?
+
+4. Does the functional description/annotation of [AQP1_HUMAN](http://www.uniprot.org/uniprot/P29972) agrees with the [TMHMM](http://www.cbs.dtu.dk/services/TMHMM/) prediction?
 
 Part II
 --
-In this exercise, we will use Pfam to identify the protein family an unknown protein (It is actually known but we are going to pretend that it is not know). Then we will see the identified protein family from Pfam is somehow generic family. Next we will use HMMER to build more specific HMM models for subfamilies of the general family.
+In this exercise, we will start with using [Pfam](http://pfam.sanger.ac.uk/search) to identify the protein family of the unknown protein below (It is actually known but we will assume that it is unknown). Then we will see the identified protein family from [Pfam](http://pfam.sanger.ac.uk/search) is a somehow generic family. Next we will use [HMMER](http://hmmer.janelia.org/) to build more specific HMM models for subfamilies of the general family.
 
 1. Predict the protein family of the following sequence using [Pfam](http://pfam.sanger.ac.uk/search). To which family does it belong?
 <pre>
@@ -36,7 +40,7 @@ KDMASNYKELGFQG
 <br>
 The <code>password</code> is the same as the <code>username</code>.
 
-8. Build HMM model from the two alignments using hmmbuild:
+8. Build HMM model from the two alignments using <code>hmmbuild</code> from [HMMER](http://hmmer.janelia.org/):
 <br>
 Example: <code>hmmbuild --amino protein_family.hmm protein_family.sto</code>
 
