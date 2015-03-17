@@ -11,7 +11,7 @@ Part I
 
 3. The structure of this protein is known [PDB 1H6I](http://www.rcsb.org/pdb/explore/explore.do?structureId=1h6i). How does the [TMHMM](http://www.cbs.dtu.dk/services/TMHMM/) prediction compare to the experimentally determined structure?
 
-4. Does the functional description/annotation of [AQP1_HUMAN](http://www.uniprot.org/uniprot/P29972) agrees with the [TMHMM](http://www.cbs.dtu.dk/services/TMHMM/) prediction?
+4. Does the *functional* description/annotation of [AQP1_HUMAN](http://www.uniprot.org/uniprot/P29972) agrees with the [TMHMM](http://www.cbs.dtu.dk/services/TMHMM/) prediction?
 
 Part II
 --
