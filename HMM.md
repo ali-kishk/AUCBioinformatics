@@ -15,7 +15,7 @@ Part I
 
 Part II
 --
-In this exercise, we will start with using [Pfam](http://pfam.sanger.ac.uk/search) to identify the protein family of the unknown protein below (It is actually known but we will assume that it is unknown). Then we will see the identified protein family from [Pfam](http://pfam.sanger.ac.uk/search) is a somehow generic family. Next we will use [HMMER](http://hmmer.janelia.org/) to build more specific HMM models for subfamilies of the general family.
+In this exercise, we will start with using [Pfam](http://pfam.sanger.ac.uk/search) to identify the protein family of the unknown protein below (It is actually known but we will assume that it is unknown). Then we will see the identified protein family from [Pfam](http://pfam.sanger.ac.uk/search) is a somehow generic family. Next we will use [HMMER](http://hmmer.janelia.org/) to build our own more specific HMM models for subfamilies of the general family.
 
 1. Predict the protein family of the following sequence using [Pfam](http://pfam.sanger.ac.uk/search). To which family does it belong?
 <pre>
