@@ -32,13 +32,13 @@ KDMASNYKELGFQG
 4. For each family member, perform BLAST search again **with no restriction on the species**. From the BLAST results, collect the same family member from different species (between five and ten sequences per family).
 5. Build a multiple sequence alignment using [MAFFT](http://mafft.cbrc.jp/alignment/server/). Save (download) the alignment as in the FASTA format
 
-6. Convert the output alignment from FASTA to Stockholm using [this online converter](http://sequenceconversion.bugaco.com/converter/biology/sequences/fasta_to_stockholm.php)
+6. Convert the output alignment from <code>[FASTA](http://en.wikipedia.org/wiki/FASTA_format)</code> into the <code>[Stockholm](http://en.wikipedia.org/wiki/Stockholm_format)</code> using [this online converter](http://sequenceconversion.bugaco.com/converter/biology/sequences/fasta_to_stockholm.php)
 
 7. Login to the server, IP address: <code>10.7.28.9</code> using [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/), Chrome [Secure Shell](https://chrome.google.com/webstore/category/apps?hl=en), or [Cygwin](https://www.cygwin.com/) via
 <br>
 <code>ssh your_student_id@10.7.28.9</code>.
 <br>
-The <code>password</code> is the same as the <code>username</code>.
+The <code>password</code> is the same as the <code>username</code>. It is recommended to change the password as soon as you sign in for the first time. The command to change the password is <code>[passwd](http://en.wikipedia.org/wiki/Passwd)</code>.
 
 8. Build HMM model from the two alignments using <code>hmmbuild</code> from [HMMER](http://hmmer.janelia.org/):
 <br>
