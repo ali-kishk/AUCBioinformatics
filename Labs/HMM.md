@@ -55,6 +55,6 @@ Where:
 <br>
 Example: <code>hmmsearch protein_family.hmm human.fas</code>
 <br>
-Where: <code>human.fas</code> is a <code>FASTA</code> file with entire human preotome according to [RefSeq](http://www.ncbi.nlm.nih.gov/refseq/) release 69.
+Where: <code>human.fas</code> is a <code>[FASTA](http://en.wikipedia.org/wiki/FASTA_format)</code>-formatted file with entire human preotome according to [RefSeq](http://www.ncbi.nlm.nih.gov/refseq/) release 69.
 
 10. Describe the search results.
