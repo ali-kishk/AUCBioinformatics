@@ -34,7 +34,7 @@ KDMASNYKELGFQG
 
 6. Convert the output alignment from the <code>[FASTA](http://en.wikipedia.org/wiki/FASTA_format)</code> format into the <code>[Stockholm](http://en.wikipedia.org/wiki/Stockholm_format)</code> format using [this online converter](http://sequenceconversion.bugaco.com/converter/biology/sequences/fasta_to_stockholm.php). The reason for the conversion is that [HMMER](http://hmmer.janelia.org/) (see below) requires the input alignment to be in the <code>[Stockholm](http://en.wikipedia.org/wiki/Stockholm_format)</code> format.
 
-7. Login to the server, IP address: <code>10.7.28.9</code> using [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/), Chrome [Secure Shell](https://chrome.google.com/webstore/category/apps?hl=en), or [Cygwin](https://www.cygwin.com/) via <code>ssh your_student_id@10.7.28.9</code>. By the default, the <code>password</code> is the same as the <code>username</code>. It is recommended to change the password as soon as you sign in for the first time. The command to change the password is <code>[passwd](http://en.wikipedia.org/wiki/Passwd)</code>.
+7. Login to the server, IP address: <code>10.7.28.9</code> using [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/), Chrome [Secure Shell](https://chrome.google.com/webstore/category/apps?hl=en), or [Cygwin](https://www.cygwin.com/) via <code>ssh your_student_id@10.7.28.9</code>. By default, the <code>password</code> is the same as the <code>username</code>. It is recommended to change the password as soon as you sign in for the first time. The command to change the password is <code>[passwd](http://en.wikipedia.org/wiki/Passwd)</code>.
 
 8. Build HMM model from the two alignments using <code>hmmbuild</code> from [HMMER](http://hmmer.janelia.org/):
 <br>
