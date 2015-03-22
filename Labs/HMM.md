@@ -54,3 +54,5 @@ Example: <code>hmmsearch protein_family.hmm human.fas</code>
 Where: <code>human.fas</code> is a <code>[FASTA](http://en.wikipedia.org/wiki/FASTA_format)</code>-formatted file with the entire human preotome according to [RefSeq](http://www.ncbi.nlm.nih.gov/refseq/) release 69.
 
 10. Describe the search results.
+
+:sunglasses:
