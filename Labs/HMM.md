@@ -25,7 +25,7 @@ TALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFR
 KDMASNYKELGFQG
 </pre>
 
-2. Go to [NCBI BLAST](http://blast.ncbi.nlm.nih.gov/Blast.cgi) and search for homologous sequences in the **human genome**. **Hint**: use <code>blastp</code> against [RefSeq](http://en.wikipedia.org/wiki/RefSeq) protein database.
+2. Go to [NCBI BLAST](http://blast.ncbi.nlm.nih.gov/Blast.cgi) and search for homologous sequences in the **human genome**. **Hint**: use <code>blastp</code> against the [RefSeq](http://en.wikipedia.org/wiki/RefSeq) protein database.
 
 3. Identify two *different* family members
 
