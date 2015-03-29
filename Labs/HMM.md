@@ -51,7 +51,9 @@ Where:
 <br>
 Example: <code>hmmsearch protein_family.hmm human.fas</code>
 <br>
-Where: <code>human.fas</code> is a <code>[FASTA](http://en.wikipedia.org/wiki/FASTA_format)</code>-formatted file with the entire human preotome according to [RefSeq](http://www.ncbi.nlm.nih.gov/refseq/) release 69. `human.fas` should be there in your home directory.
+Where:
+    - <code>human.fas</code> is a <code>[FASTA](http://en.wikipedia.org/wiki/FASTA_format)</code>-formatted file with the entire human preotome according to [RefSeq](http://www.ncbi.nlm.nih.gov/refseq/) release 69.
+    - A copy of `human.fas` should be located in your home directory.
 
 10. Describe the search results.
 
