@@ -47,7 +47,7 @@ Where:
 <br>
 **Note**: <code>protein_family</code> is an arbitrary name for the alignment and the model. It can be replaced with any other more relevant or meaningful *file* name.
 
-9. Search the human and fly proteins for each model and see how many proteins belong to each family:
+9. Search the human proteins (there is a file called `human.fas` with human preotome in your home directory) for each model and see how many proteins belong to each family:
 <br>
 Example: <code>hmmsearch protein_family.hmm human.fas</code>
 <br>
