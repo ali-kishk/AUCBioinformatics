@@ -47,11 +47,11 @@ Where:
 <br>
 **Note**: <code>protein_family</code> is an arbitrary name for the alignment and the model. It can be replaced with any other more relevant or meaningful *file* name.
 
-9. Search the human proteins (there is a file called `human.fas` with the human preotome in your home directory) for each model and see how many proteins belong to each family:
+9. Search the human proteins for each model and see how many proteins belong to each family:
 <br>
 Example: <code>hmmsearch protein_family.hmm human.fas</code>
 <br>
-Where: <code>human.fas</code> is a <code>[FASTA](http://en.wikipedia.org/wiki/FASTA_format)</code>-formatted file with the entire human preotome according to [RefSeq](http://www.ncbi.nlm.nih.gov/refseq/) release 69.
+Where: <code>human.fas</code> is a <code>[FASTA](http://en.wikipedia.org/wiki/FASTA_format)</code>-formatted file with the entire human preotome according to [RefSeq](http://www.ncbi.nlm.nih.gov/refseq/) release 69. `human.fas` should be there in your home directory.
 
 10. Describe the search results.
 
