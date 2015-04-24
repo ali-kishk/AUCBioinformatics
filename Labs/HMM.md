@@ -1,4 +1,4 @@
-HMM for Protein Analysis - Testing
+HMM for Protein Analysis
 ==
 
 Part I
